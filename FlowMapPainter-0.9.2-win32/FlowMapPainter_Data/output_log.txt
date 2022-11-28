@@ -1,0 +1,29 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 31.0.15.1700]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+desktop: 3840x2160 60Hz; virtual: 3901x1234 at -1707,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.6f4
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\UELearn\BenMaterialLearn\FlowMapPainter-0.9.2-win32\FlowMapPainter_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\UELearn\BenMaterialLearn\FlowMapPainter-0.9.2-win32\FlowMapPainter_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\UELearn\BenMaterialLearn\FlowMapPainter-0.9.2-win32\FlowMapPainter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\UELearn\BenMaterialLearn\FlowMapPainter-0.9.2-win32\FlowMapPainter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.044 seconds
+Platform assembly: F:\UELearn\BenMaterialLearn\FlowMapPainter-0.9.2-win32\FlowMapPainter_Data\Managed\System.dll (this message is harmless)
+You are trying to load data from a www stream which had the following error when downloading.
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Export/WWW.cpp Line: 981)
+
+FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at VertexPaintRealTime+<VersionCheck>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
